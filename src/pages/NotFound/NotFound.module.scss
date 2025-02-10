@@ -1,0 +1,29 @@
+.notFound {
+  padding: 1rem;
+  min-height: 100vh;
+  background: #fcf3e8;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  width: 100vw;
+  p {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: auto;
+    width: fit-content;
+    background-color: white;
+    color: #f29724;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  @media (min-width: 640px) {
+    margin-left: 16rem;
+  }
+}
